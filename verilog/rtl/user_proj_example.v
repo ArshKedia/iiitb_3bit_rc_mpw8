@@ -87,7 +87,7 @@ module user_proj_example #(
     // IRQ
     assign irq = 3'b000;	// Unused
 
-    
+	iiitb_3bit_rc instance (clk,ori,count);
     
 
 endmodule
